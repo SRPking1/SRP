@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Login SIgnup UI</string>
+    <string name="please_type_the_verification_code_sent_to_your_number">Please type the verification code sent to\nyour number</string>
+    <string name="verification_code">Verification Code</string>
 </resources>
