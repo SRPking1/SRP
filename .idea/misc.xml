@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/card.xml" value="0.1245" />
+        <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/custom_oval.xml" value="0.1245" />
+        <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/custom_oval_rec.xml" value="0.1245" />
+        <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/custom_oval_rec_right.xml" value="0.1245" />
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/gradient.xml" value="0.1245" />
+        <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1245" />
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/rectangle_border.xml" value="0.1245" />
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/drawable/round_arrow_forward_24.xml" value="0.1245" />
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/layout/activity_example.xml" value="0.17074275362318841" />
@@ -15,6 +19,7 @@
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/layout/fragment_country_preference.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/layout/fragment_full_number.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/layout/fragment_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Saurabh/Desktop/IndiLive/app/src/main/res/layout/layout_voice_room.xml" value="0.17074275362318841" />
       </map>
     </option>
   </component>
