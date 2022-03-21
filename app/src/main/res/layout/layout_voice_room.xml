@@ -434,7 +434,7 @@
         android:layout_height="35dp"
         android:background="@drawable/custom_oval"
         android:padding="4dp"
-        android:src="@drawable/ic_baseline_message_24"
+        android:src="@drawable/ic_baseline_inbox_24"
         app:layout_constraintBottom_toTopOf="@+id/smiley"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.956"
