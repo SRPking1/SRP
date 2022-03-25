@@ -28,9 +28,12 @@ public class Animate2 extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s.toString().trim().length()==1)
+                if (s.toString().trim().length()>=1)
                 {
+                    if(s.toString().trim().length()==1)
+                    {
 
+                    }
                   appCompatImageView.setVisibility(View.VISIBLE);
                 }
                 else
@@ -45,17 +48,17 @@ public class Animate2 extends AppCompatActivity {
             }
         });
 
-        editText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AppCompatImageView appCompatImageView = (AppCompatImageView) findViewById(R.id.inbox);
-                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move_right);
-                appCompatImageView.startAnimation(animation);
-
-                AppCompatImageView appCompatImageView2 = (AppCompatImageView) findViewById(R.id.more);
-                Animation animation2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move_right);
-                appCompatImageView2.startAnimation(animation2);
-            }
-        });
+//        editText.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                AppCompatImageView appCompatImageView = (AppCompatImageView) findViewById(R.id.inbox);
+//                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move_right);
+//                appCompatImageView.startAnimation(animation);
+//
+//                AppCompatImageView appCompatImageView2 = (AppCompatImageView) findViewById(R.id.more);
+//                Animation animation2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move_right);
+//                appCompatImageView2.startAnimation(animation2);
+//            }
+//        });
     }
 }

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView.Light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:fitsSystemWindows="true"
+    android:layout_marginEnd="8dp"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/media_image1"
+            android:layout_width="158dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/media_image1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/usr1_1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="7dp"
+            android:background="#C55353" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/usr1_2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginRight="62dp"
+                android:layout_marginBottom="7dp"
+                android:background="#FFEB3B" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/usr1_3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginBottom="7dp"
+                android:background="#2196F3" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/media_image2"
+            android:layout_width="158dp"
+            android:layout_height="180dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/media_image2">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/usr2_1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginBottom="7dp"
+                android:background="#DF5959" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/usr2_2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginRight="62dp"
+                android:layout_marginBottom="7dp"
+                android:background="#FFEB3B" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/usr2_3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginBottom="7dp"
+                android:background="#2196F3" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/primary_text1"
+            android:layout_width="158dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/media_image1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Title Of Broad"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/primary_text2"
+            android:layout_width="158dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/media_image2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="Title Of Broad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/follow1"
+            android:layout_width="78.5dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/primary_text1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/custom_oval" />
+
+        <ImageButton
+            android:id="@+id/profile1"
+            android:layout_width="78.5dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/primary_text1"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/follow1"
+            android:background="@drawable/custom_oval" />
+
+        <ImageButton
+            android:id="@+id/follow2"
+            android:layout_width="78.5dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/primary_text1"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="3dp"
+            android:layout_toLeftOf="@id/profile2"
+            android:background="@drawable/custom_oval" />
+
+        <ImageButton
+            android:id="@+id/profile2"
+            android:layout_width="78.5dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/primary_text1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/custom_oval" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
