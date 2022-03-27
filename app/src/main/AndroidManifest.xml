@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.monstertechno.loginsignupui">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,9 +14,6 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Animate2"
-            android:exported="false" />
-        <activity
-            android:name=".animate"
             android:exported="false" />
         <activity
             android:name=".SignupActivity"

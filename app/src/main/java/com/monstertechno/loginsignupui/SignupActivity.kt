@@ -13,6 +13,6 @@ import androidx.appcompat.widget.AppCompatImageView
 class SignupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.layout_home_broads)
+        setContentView(R.layout.fragment_user_detail_info_info)
     }
 }
