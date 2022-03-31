@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_one_signup">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+         android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/profile"
+            android:orientation="horizontal"
+            android:padding="8dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/uploadImg"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_oval_white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="Upload Image"
+        android:textSize="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/uploadImg"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_edittext"
+            android:gravity="center"
+            android:hint="Nickname"></EditText>
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_edittext"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:hint="Date Of Birth(DD/MM/YYYY)"></EditText>
+
+        <RelativeLayout
+            android:id="@+id/rel_gender"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/dob"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <RadioGroup
+                android:id="@+id/radioGrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingTop="64dp"
+                android:paddingRight="8dp">
+
+                <RadioButton
+                    android:id="@+id/radioM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_edittext"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:id="@+id/radioF"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_edittext"
+                    android:checked="false"
+                    android:text="Female"
+                    android:textSize="14dp" />
+            </RadioGroup>
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/gender"></ImageView>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submit_profile"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/bio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_oval"
+            android:gravity="center"
+            android:text="Submit"
+            android:textSize="20dp"></Button>
+
+        <EditText
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/rel_gender"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_edittext"
+            android:gravity="center"
+            android:hint="Write About Yourself"></EditText>
+    </RelativeLayout>
+</RelativeLayout>
